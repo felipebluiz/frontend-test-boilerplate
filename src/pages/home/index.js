@@ -1,16 +1,5 @@
-import * as React from "react";
-import { connect } from "../../store";
+import React from 'react';
 
-import HomeContainer from "./HomeContainer";
-import HomeComponent from "./HomeComponent";
+const Home = () => <div>Home</div>;
 
-const Container = connect(
-  HomeContainer,
-  ["userStore", "uiStore"]
-);
-
-function HomeMain(props) {
-  return <Container viewComponent={HomeComponent} {...props} />;
-}
-
-export default HomeMain;
+export default Home;

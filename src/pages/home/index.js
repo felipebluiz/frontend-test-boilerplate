@@ -74,7 +74,7 @@ class Home extends Component {
         <Logo src={Logo_Mobiauto} alt="Mobiauto" />
         <Wrapper>
           <Content>
-            <p>Informe os dados do veiculo para saber o valor na tabela FIPE</p>
+            <p>Informe os dados do veículo para saber o valor na tabela FIPE</p>
             <Label>
               <span className="field-name">Marca</span>
               <SelectLabel>

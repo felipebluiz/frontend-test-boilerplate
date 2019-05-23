@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as actions from '../../actions/user';
 
 // Styles
 import {
@@ -81,6 +79,4 @@ const mapStateToProps = state => ({
   user: state.user,
 });
 
-const mapDispathToProps = dispatch => bindActionCreators(actions, dispatch);
-
-export default connect(mapStateToProps, mapDispathToProps)(Home);
+export default connect(mapStateToProps, null)(Home);

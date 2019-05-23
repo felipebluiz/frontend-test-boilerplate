@@ -1,4 +1,5 @@
 import Home from "../pages/home";
+import Result from "../pages/result";
 
 const routes = [
   {
@@ -6,7 +7,13 @@ const routes = [
     path: "/",
     component: Home,
     key: "home"
-  }
+  },
+  {
+    exact: true,
+    path: "/result",
+    component: Result,
+    key: "result"
+  },
 ];
 
 export default routes;
